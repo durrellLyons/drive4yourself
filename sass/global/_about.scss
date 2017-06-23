@@ -1,0 +1,45 @@
+.mission {
+    background-color: $black;
+    text-align: center;
+    padding: 5em 0;
+
+    h2 {
+        position: relative;
+        top: 1em;
+        text-align: center;
+        width: 100%;
+        margin: 2em auto;
+        font-size: 4em;
+        line-height: 1.5em;
+        border-radius: 10px;
+        color: #202020;
+        background-color: #2d2d2d;
+        letter-spacing: .1em;
+        text-shadow: 
+          -1px -1px 1px #111, 
+          2px 2px 1px #363636;
+    }
+    
+    p {
+        font-size: 1.75em;
+        text-align: center;
+        line-height: 1.5em;
+    }
+}
+
+.about {
+    background: url('img/TKayJonezBioPic.JPG') no-repeat top center fixed;
+    background-size: cover;
+    height: 100vh;
+    padding: 15em 0;
+    
+    .content {
+        background-color: rgba(255,255, 255, 0.75);
+        padding: 1em;
+        border-radius: 10px;
+    }
+}
+
+.get_started_link {
+    color: $blue;
+}

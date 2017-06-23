@@ -1,0 +1,37 @@
+.requirements {
+    background: url('img/UBER_phone.jpg') #000 no-repeat center fixed;
+    background-size: 100vh;
+    position: relative;
+    height: auto;
+    .content {
+        background-color: rgba(255,255,255, 0.8);
+        padding: 5em 2em;
+        height: 100%;
+    }
+    p {
+        font-weight: 600;
+    }
+    
+    ul {
+        list-style-type: circle;
+        li {
+            margin: 10px auto;
+            font-weight: 600;     
+        }
+    }
+    
+    ol {
+        font-weight: 600; 
+    }        
+    
+    h4 {
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: $darkblue;
+            &:hover {
+                color: $blue;
+            }
+        }
+    }
+}

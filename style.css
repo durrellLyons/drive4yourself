@@ -1,0 +1,472 @@
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Revalia");
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden],
+template {
+  display: none; }
+
+a {
+  background-color: transparent; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 0; }
+
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto;
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+optgroup {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0; }
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+.blue {
+  color: #06c1ff; }
+
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Structure
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Mixins
+--------------------------------------------------------------*/
+/* Center block */
+/* Clearfix */
+/* Clear after (not all clearfix need this also) */
+/*  Column mixin */
+/*  Image Align Helper  */
+/*--------------------------------------------------------------
+# Core
+--------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: .75em;
+  margin-bottom: .25em;
+  font-family: 'Cantarell', Arial;
+  clear: both; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.6em; }
+
+h3 {
+  font-size: 2.2em; }
+
+h4 {
+  font-size: 2em; }
+
+h5 {
+  font-size: 1.8em; }
+
+h6 {
+  font-size: 1.6em; }
+
+.content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px; }
+  @media screen and (min-width: 300px) {
+    .content {
+      width: 100%; } }
+  @media screen and (min-width: 600px) {
+    .content {
+      width: 80%; } }
+  @media screen and (min-width: 900px) {
+    .content {
+      position: relative; } }
+  .content:after {
+    content: '';
+    display: table;
+    clear: both; }
+
+.column {
+  float: left;
+  text-align: left; }
+  @media screen and (min-width: 300px) {
+    .column {
+      width: 90%;
+      padding: 5% 0 5% 10%; } }
+  @media screen and (min-width: 600px) {
+    .column {
+      width: 15em;
+      padding: 3em 0 0; }
+      .column ul {
+        padding: 0; } }
+  @media screen and (min-width: 900px) {
+    .column {
+      width: 25%; } }
+
+ul {
+  list-style-type: none; }
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 0 1.5em; }
+
+strong {
+  font-weight: 700; }
+
+button, .button {
+  border: 5px solid;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .3em;
+  padding: 30px 70px;
+  text-transform: uppercase; }
+
+span {
+  display: block; }
+
+/*--------------------------------------------------------------
+# Heading
+--------------------------------------------------------------*/
+header {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10; }
+  header:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+    clear: both; }
+  header h3 {
+    color: #d5d5d5;
+    border: 2px groove;
+    width: 32%;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    padding: 0;
+    margin: 5px auto; }
+    header h3 span.blue {
+      margin: 0 5px;
+      display: inline;
+      font-weight: bolder; }
+
+/*--------------------------------------------------------------
+# Nav
+--------------------------------------------------------------*/
+@media screen and (min-width: 300px) {
+  .mobileNav {
+    display: block; } }
+@media screen and (min-width: 900px) {
+  .mobileNav {
+    display: none; } }
+
+@media screen and (min-width: 300px) {
+  .nav {
+    display: none; } }
+@media screen and (min-width: 900px) {
+  .nav {
+    display: block;
+    width: 50%;
+    float: right;
+    padding: 1.5em 0 0; }
+    .nav ul li {
+      display: inline;
+      padding: 0.75em;
+      color: #d5d5d5; }
+      .nav ul li:hover {
+        color: #06c1ff;
+        font-weight: bold;
+        cursor: pointer; }
+      .nav ul li a {
+        text-decoration: none;
+        color: #06c1ff;
+        border: 3px groove #d5d5d5;
+        padding: 1em;
+        border-radius: 10px; }
+        .nav ul li a:hover {
+          color: #0a395d;
+          background: #d5d5d5;
+          border-color: #06c1ff; } }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+  background-color: #d5d5d5;
+  width: 100%; }
+  footer p {
+    text-align: center;
+    font-size: 0.65em;
+    width: 100%; }
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Branding
+--------------------------------------------------------------*/
+.branding {
+  background: url("img/high_speed_car_driving-hd.jpg") no-repeat top center fixed;
+  background-size: cover;
+  height: 100vh;
+  float: left;
+  width: 100%; }
+  .branding:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+    clear: both; }
+  .branding .branding_title_div {
+    width: 45%;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    position: relative;
+    top: 20%;
+    left: 5%; }
+  .branding .branding_title {
+    margin: 0;
+    width: 100%;
+    font-size: 6em;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.mission {
+  background-color: #222;
+  text-align: center;
+  padding: 5em 0; }
+  .mission h2 {
+    position: relative;
+    top: 1em;
+    text-align: center;
+    width: 100%;
+    margin: 2em auto;
+    font-size: 4em;
+    line-height: 1.5em;
+    border-radius: 10px;
+    color: #202020;
+    background-color: #2d2d2d;
+    letter-spacing: .1em;
+    text-shadow: -1px -1px 1px #111,  2px 2px 1px #363636; }
+  .mission p {
+    font-size: 1.75em;
+    text-align: center;
+    line-height: 1.5em; }
+
+.about {
+  background: url("img/TKayJonezBioPic.JPG") no-repeat top center fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 15em 0; }
+  .about .content {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1em;
+    border-radius: 10px; }
+
+.get_started_link {
+  color: #06c1ff; }
+
+/*--------------------------------------------------------------
+# Requirements
+--------------------------------------------------------------*/
+.requirements {
+  background: url("img/UBER_phone.jpg") #000 no-repeat center fixed;
+  background-size: 100vh;
+  position: relative;
+  height: auto; }
+  .requirements .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5em 2em;
+    height: 100%; }
+  .requirements p {
+    font-weight: 600; }
+  .requirements ul {
+    list-style-type: circle; }
+    .requirements ul li {
+      margin: 10px auto;
+      font-weight: 600; }
+  .requirements ol {
+    font-weight: 600; }
+  .requirements h4 {
+    text-align: center; }
+    .requirements h4 a {
+      text-decoration: none;
+      color: #0a395d; }
+      .requirements h4 a:hover {
+        color: #06c1ff; }
+
+/*# sourceMappingURL=style.css.map */

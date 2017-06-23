@@ -1,0 +1,50 @@
+.mobileNav {
+    @media screen and (min-width: $query__small) {
+        display: block;
+    }
+    
+    @media screen and (min-width: $query__large) {
+        display: none;
+    }
+}
+
+.nav {
+
+    @media screen and (min-width: $query__small) {
+        display: none;
+    }
+    
+    @media screen and (min-width: $query__large) {
+        display: block;
+        width: 50%;
+        float: right;
+        padding: 1.5em 0 0;
+        ul {
+        
+        }
+        
+        ul li {
+            display: inline;
+            padding: 0.75em;
+            color: $grey;
+            &:hover {
+                color: $blue;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            a {
+                text-decoration: none;
+                color: #06c1ff;
+                border: 3px groove $grey;
+                padding: 1em;
+                border-radius: 10px;
+                &:hover {
+                    color: $darkblue;
+                    background: $grey;
+                    border-color: $blue;
+                }
+            }
+        }
+    }
+}
+

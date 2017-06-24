@@ -13,6 +13,7 @@
         <?php include('branding.php'); ?>
         <?php include('about.php'); ?>
         <?php include('requirements.php'); ?>
+        <?php include('contact.php'); ?>
         <?php include('inc/footer.php'); ?>
         
         <script type='text/javascript' src='js/jquery-3.1.1.js'></script>

@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Drive4Yourself</title>
+        <meta charset="UTF-8">
         <meta id="view" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1">
         <link rel='stylesheet' type='text/css' href='style.css' />
         <link rel="icon" type="image/png" href="img/uber_2.png">

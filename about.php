@@ -5,7 +5,7 @@
             This sites purpose is to be a one-stop shop for all the information you need on how to apply and start driving
             for Uber.
             Periodically, there will be short blogs, tips and posts (based on my experiences) about ways to become a 5-Star
-            Driver and see great rewards for it.  
+            Driver and see great rewards for it.
         </p>
     </div>
 </section>
@@ -16,10 +16,10 @@
         <p class="p-note">
             
             <p>
-                Welcome to Drive4Yourself.com!!!
+                Welcome to Drive4Yourself.com!!!
                 Im excited to see you take the opportunity to learn about this entrepreneurial avenue to make extra income
                 on the side, or as a main hustle.
-                But first, a little about myself.
+                But first, a little abut myself.
             </p>
             
             <p>
@@ -28,15 +28,15 @@
                 being my own boss.
                 I was employed for 9 years with the same company, reached the top position at the job, and was also the
                 highest paid employee.
-                Good life right? 
+                Good life right?
             </p>
             
             <p>
                 Well, not quite as good as you would imagine.
                 Even though the amenities sound quite amazing, I felt like I spent so many hours of my day working for
-                someone else’s dream.
+                someone else's dream.
                 Some days would last 17-18 hrs, only to return again the next day and do the same.
-                Indeed came the time for a change. 
+                Indeed came the time for a change.
             </p>
             
             <p>
@@ -56,13 +56,13 @@
                 As an Atlanta resident, Uber has allowed me to see many amazing parts and places of my own city that I had
                 never seen before.
                 Discovering new restaurants, new scenery, and a way to earn income while doing it was the best decision
-                I’ve ever made.
+                I've ever made.
             </p>
             
             <p>
-                 Get your time back and discover a new life of entrepreneurship through Uber and what our partner has to
-                 offer.
-                 LET’S GET STARTED NOW!!
+                Get your time back and discover a new life of entrepreneurship through Uber and what our partner has to
+                offer.
+                <br>LET'S GET STARTED NOW!!
             </p>
             <a href='https://www.uber.com/a/join-vs?invite_code=terrencem1924ue' target='_blank' class='get_started_link'>
                 <h3>Qualify for a $200 BONUS!!! GET STARTED NOW!!</h3>

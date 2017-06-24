@@ -15,7 +15,7 @@
             You will be able to get signed up and start earning within minutes.
         </p>
     
-        <h4>Ready? Let’s take a look at the requirements a little closer.</h4>
+        <h4>Ready? Let's take a look at the requirements a little closer.</h4>
     
         <h4>UBER DRIVER AGE REQUIREMENTS</h4>
     
@@ -25,7 +25,7 @@
                 <li>Minimum 3 years of driving experience is needed.</li>
                 <li>Driving history verification may be required in your state.
                     If you moved from another state, it is wise to keep your out-of-state license as well.
-                    UBER Headquarters may ask for it, and it’s better to be prepared for anything.
+                    UBER Headquarters may ask for it, and it's better to be prepared for anything.
                 </li>
                 <li>CAR INSURANCE must be current and in your name, in your state.</li>
                 <li>
@@ -34,7 +34,7 @@
                         vehicle does not have to be in your name.
                     </em>
                 </li>
-                <li>DRIVER’S LICENSE must be in-state.</li>
+                <li>DRIVER'S LICENSE must be in-state.</li>
                 <li>BACKGROUND CHECKS with UBER are mandatory, so you must have a Social Security Number.</li>
                 <li>CLEAN RECORDS usually get the best results.</li>
                 <li>MUST PASS the background check.</li>
@@ -82,9 +82,9 @@
         <ul>
             <li>4- door SEDAN. Can seat up to 4 passengers, not including the driver.</li>
             <li>
-                2006 fully operational or newer. ( Please check by city because UBER’s vehicle year policy varies by city.)
+                2006 fully operational or newer. ( Please check by city because UBER's vehicle year policy varies by city.)
             </li>
-            <li>Vehicle’s plates registered in-state.</li>
+            <li>Vehicle's plates registered in-state.</li>
             <li>Car must qualify in an UBER vehicle inspection.</li>
             <li>Marked taxi, or salvaged vehicles are not permitted.</li>
             <li>The vehicle registration must be current.</li>

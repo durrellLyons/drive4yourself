@@ -1,7 +1,6 @@
 .branding {
     background: url('img/high_speed_car_driving-hd.jpg') no-repeat top center fixed;
     background-size: cover;
-    height: 100vh;
     float: left;
     width: 100%;
     &:after {
@@ -9,14 +8,35 @@
         @include clearfix-after();
     }
     
+    @media screen and (min-width: $query__small) {
+        height: auto;
+        padding: 7em 0;
+    }
+    
+    @media screen and (min-width: $query__large) {
+        height: 100vh;
+    }
+    
     .branding_title_div {
-        width: 45%;
-        padding: 2em;
         background-color: rgba(255, 255, 255, 0.5);
         border-radius: 10px;
         position: relative;
-        top: 20%;
-        left: 5%;
+        
+        @media screen and (min-width: $query__small) {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        @media screen and (min-width: $query__large) {
+            width: 45%;
+            max-width: 35em;
+            padding: 2em;
+            top: 20%;
+            left: 5%;
+            text-align: left;
+            margin: inherit;
+        }
     }
     
     .branding_title {

@@ -1,4 +1,5 @@
-<nav class="mobileNav" role="navigation">
+ <nav class="mobileNav" role="navigation">
+    <i class="fa fa-bars" id='mobileMenuButton' aria-hidden="true"></i>
     <ul>
         <li id="mobileNavAbout">About</li>
         <li id="mobileNavRequirements">Uber Requirements</li>

@@ -15,7 +15,7 @@
         <?php include('requirements.php'); ?>
         <?php include('contact.php'); ?>
         <?php include('inc/footer.php'); ?>
-        
+        <script src="https://use.fontawesome.com/e06c27e661.js"></script>
         <script type='text/javascript' src='js/jquery-3.1.1.js'></script>
         <script type='text/javascript' src='js/modernizr-custom.js'></script>
         <script type='text/javascript' src='js/jquery.scrollTo.min.js'></script>

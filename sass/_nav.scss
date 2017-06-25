@@ -1,6 +1,42 @@
 .mobileNav {
     @media screen and (min-width: $query__small) {
         display: block;
+        float: right;
+        color: $grey;
+        padding: 1em 1em 0 0;
+        i {
+            font-size: 2em;
+        }
+        
+        ul {
+            display: none;
+            background: black;
+            position: absolute;
+            top: 3em;
+            right: 0;
+            padding: 1em;
+            
+            li {
+                padding: 0.5em;
+                
+                a {
+                    text-decoration: none;
+                    color: #06c1ff;
+                    border: 3px groove $grey;
+                    padding: 1em;
+                    border-radius: 10px;
+                    &:hover {
+                        color: $darkblue;
+                        background: $grey;
+                        border-color: $blue;
+                    }
+                }
+            }
+            
+            li:last-child {
+                padding: 2em 0;
+            }
+        }
     }
     
     @media screen and (min-width: $query__large) {
@@ -16,7 +52,7 @@
     
     @media screen and (min-width: $query__large) {
         display: block;
-        width: 50%;
+        width: 55%;
         float: right;
         padding: 1.5em 0 0;
         ul {
@@ -25,7 +61,7 @@
         
         ul li {
             display: inline;
-            padding: 0.75em;
+            padding: 0.5em;
             color: $grey;
             &:hover {
                 color: $blue;
